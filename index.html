@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Lit</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css"/>
+    <script type="module" src="/src/my-element.js"></script>
+  </head>
+  <body>
+    <my-element>
+      <div class="form">
+        <!-- Put form here -->
+           <form id="form" action="/">
+              <h1></h1>
+              <div class="input-control">
+                <label for="username" class="label">First and Last Name</label>
+                <input
+                  id="username"
+                  name="username"
+                  type="text"
+                  placeholder="Write name..."
+                />
+                <div class="error"></div>
+              </div>
+              <div class="input-control">
+                <label for="email" class="label">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="text"
+                  placeholder="example@domain.com"
+                />
+                <div class="error"></div>
+              </div>
+             
+               <div class="input-control">
+                <label for="phone" class="label">phone number</label>
+                <input
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  placeholder="insert phone number..."
+                />
+                <div class="error"></div>
+              </div>
+              <div class="input-control">
+               
+                <textarea
+                  id="comment1"
+                  cols="50"
+                  rows="4"
+                  placeholder="Please comment..."
+                ></textarea>
+                <di class="error"></di>
+     
+                <textarea
+                  id="comment2"
+                  cols="50"
+                  rows="4"
+                  placeholder="Please comment..."
+                ></textarea>
+                <div class="error"></div>
+     
+                <textarea
+                  id="comment3"
+                  cols="50"
+                  rows="4"
+                  placeholder="Please comment..."
+                ></textarea>
+                <div class="error"></div>
+              </div>
+              <div class="input-control">
+                <div class="input-check">
+                  <input type="checkbox" id="input-checkbox" name="terms" />
+                  <p>
+                    I have read and accept
+                    <a href="#">Terms and Conditions</a>
+                  </p>
+                  <div class="error"></div>
+                </div>
+              </div>
+              <button type="submit">Submit Your Input</button>
+            </form>
+        <!-- </div>
+        <div class="instructions">
+          <h2>Build a contact form!</h2>
+          <p>The contact for must include the following fields:</p>
+          <ul>
+            <li>Name</li>
+            <li>Email</li>
+            <li>Phone Number</li>
+            <li>Message</li>
+            <li>Checkbox to agree to be contacted</li>
+            <li>Button to submit</li>
+          </ul>
+          <p><strong>HTML</strong> - Every field needs a label. The email and phone number fields should both show their corresponding correct input keyboards on phones. The message should be a large, multi-line area. Clicking the label for the checkbox should also activate the checkbox.</p>
+          <p><strong>Styling</strong> - The checkbox label should be next to the checkbox, the other labels should be above their input. The input for name and message should be full-width, email and phone number should sit next to each other and each be half-width. Inputs, except the checkbox, should be flat, light grey, with a small shadow. When the viewport is above 600px wide, these instructions should be to the left of the form. Together, both should be centered on the page, with these instructions not to be smaller than 300px or larger than 40 characters in width. The form should take up whatever remaining space is available, but not exceed 80 characters in width.</p>
+          <p><strong>JavaScript</strong> - Submit the user's input to <code>/contact-us</code> using JavaScript. While the form is being submitted, the user shouldn't be able to edit it and should get a message it's being submitted. On a success, they should get a message saying so and the form should be cleared. On a failure, they should get a message with the reason it failed and let them continue editing the form.</p>
+          <p>You can use HTML without any processor, CSS with Sass as a preprocessor, and JavaScript without any processor. No frameworks, libraries, or other outside code is allowed.</p>
+        </div> -->
+   
+    </my-element>
+  </body>
+</html>
+
+
+
